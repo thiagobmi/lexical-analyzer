@@ -57,7 +57,7 @@ As estruturas sintáticas da linguagem são formadas por combinações específi
    - **Padrão de Formação:** `(UNARY_OPERATOR*(IDENTIFIER + LITERAL) OPERATOR)* (IDENTIFIER + LITERAL)`
 
 2. **Assignment (Atribuição)**
-   - **Padrão de Formação:** `IDENTIFIER (OPERATOR[ASSIGNMENT] + OPERATOR[ARITHMETIC_ASSIGNMENT]) EXPRESSION;`
+   - **Padrão de Formação:** `IDENTIFIER (OPERATOR[ASSIGNMENT] + OPERATOR[ARITHMETIC_ASSIGNMENT]) EXPRESSION';'`
 
 3. **Declaration (Declaração)**
    - **Padrão de Formação:** `KEYWORD[DATA_TYPE] (OPERATOR '*')* IDENTIFIER ('=' (LITERAL + IDENTIFIER) ';' + ';')`
