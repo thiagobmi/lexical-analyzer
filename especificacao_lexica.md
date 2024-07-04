@@ -54,7 +54,7 @@ As estruturas sintáticas da linguagem são formadas por combinações específi
 
 1. **Expression (Expressão)**
    - **EXPRESSÃO:** Conjunto de tokens que formam uma expressão válida.
-   - **Padrão de Formação:** `(UNARY_OPERATOR*(IDENTIFIER + LITERAL) OPERATOR)* (IDENTIFIER + LITERAL)`
+   - **Padrão de Formação:** `UNARY_OPERATOR*((IDENTIFIER + LITERAL) OPERATOR)* (IDENTIFIER + LITERAL)`
 
 2. **Assignment (Atribuição)**
    - **Padrão de Formação:** `IDENTIFIER (OPERATOR[ASSIGNMENT] + OPERATOR[ARITHMETIC_ASSIGNMENT]) EXPRESSION';'`
